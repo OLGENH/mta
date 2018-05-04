@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "/frontend/index.html",
+  "authenticationMethod": "none",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/frontend/(.*)$",
+      "target": "$1",
+      "localDir": "webapp"
+    }
+  ]
+}

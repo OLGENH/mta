@@ -1,0 +1,13 @@
+ID: mta1
+_schema-version: '2.0'
+version: 0.0.1
+
+modules:
+ - name: frontend
+   type: html5
+   path: frontend
+   parameters:
+      disk-quota: 256M
+      memory: 256M
+   build-parameters:
+      builder: grunt
